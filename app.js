@@ -5,7 +5,7 @@ document.getElementById("nameForm").addEventListener("submit", function(e) {
     const name = nameInput.value.trim();
 
     if (name) {
-        welcomeMessage.textContent = "Welcome, " + name + "! We"re glad you"re here.";
+        welcomeMessage.textContent = "Welcome, " + name + "! We're so glad you're here.";
         nameInput.value = "";
     }
 });
